@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supermercado - Administrador</title>
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+<h1>Gestión de Productos</h1>
+<nav>
+<a href="/html/index.html">Página Principal</a> |
+<a href="login.html" id="logout-btn">Cerrar Sesión</a>
+</nav>
+</header>
+<main>
+<h2>Bienvenido, Admin</h2>
+<!-- Aquí puedes agregar el formulario para añadir productos -->
+<form id="add-product-form">
+<input type="text" id="product-name" placeholder="Nombre del producto" required>
+<input type="text" id="product-price" placeholder="Precio del producto" required>
+<input type="text" id="product-description" placeholder="Descripción" required>
+<input type="number" id="product-quantity" placeholder="Cantidad" required>
+<input type="file" id="product-image" accept="image/*">
+<button type="submit">Agregar Producto</button>
+</form>
+</main>
+<footer>
+    <span>@SuperAserrí 2024 - Todos los derechos reservados</span>
+
+        <div class="footerdiv">
+            <div class="footerdiv1">
+                <img src="../Media/IMG/logo.png" style="border-radius: 5px; width: 200px; height: 150px;" alt="logo">
+            </div>
+            <div class="footerdiv2">
+                <h3 class="headline footer">Servicio al Cliente</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Métodos de Pago</a></li>
+                    <li><a href="#">Entregas y Devoluciones</a></li>
+                    <li><a href="#">Políticas de Cookies</a></li>
+                    <li><a href="#">Políticas de Privacidad</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Reclamaciones</a></li>
+                </ul>
+            </div>
+            <div class="footerdiv2">
+                <h3 class="headline footer">Contáctenos</h3>
+                <ul>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel: 2230-5200" class="ng-binding">2230-5222</a></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a class="ng-binding" href="mailto:superaserri@superaserri.com">superaserri@superaserri.com</a>
+                    </li>
+                    <li><a href="../HTML/contactos.html"><i class="fa fa-comment" aria-hidden="true"></i> Contáctenos</a></li>
+                    <li><a href="../HTML/preguntas.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Preguntas Frecuentes</a></li>
+                    <li><a href="../HTML/ubicacion.html"><i class="fas fa-store" aria-hidden="true"></i> Superemercados</a></li>
+                    <li><a href="../HTML/acercade.html"><i class="fa fa-building" aria-hidden="true"></i> ¿Quiénes Somos?</a></li>
+                </ul>
+            </div> 
+        </div>
+    </footer>
+<script src="/js/producto.js"></script>
+</body>
+</html>

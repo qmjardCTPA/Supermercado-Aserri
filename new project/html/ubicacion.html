@@ -1,0 +1,70 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado - Ubicación</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="../HTML/index.html" ><img src="../Media/IMG/logo.png" alt="logo" id="logo"></a>
+        <button class="hamburger" id="hamburger-btn">&#9776;</button> <!-- Botón del menú hamburguesa--> 
+        <nav id="navbar">
+            <a href="'../HTML/index.html">Inicio</a>
+            <a href="../HTML/acercade.html" id="acercade-link">Acerca de</a>
+            <a href="../HTML/contactos.html" id="contactos-link">Contactos</a>
+            <a href="../HTML/ubicacion.html" id="ubicacion-link">Ubicación</a>
+            <a href="../HTML/historial.html" id="historial-link" style="display:none;">Ver Compras</a>
+            <a href="../HTML/admin.html" id="productos-link" style="display:none;">Productos</a>
+            <a href="../HTML/login.html" id="login-link">Iniciar Sesión</a>
+            <a href="../HTML/register.html" id="register-link">Registrar</a>
+            <span id="welcome-message" style="display:none;"></span>
+            <a href="#" id="logout-link" style="display:none;">Cerrar Sesión</a>
+            <button id="cart-btn">Carrito (0)</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Ubicación</h1>
+        <div class="map">
+            <h2>ubicacion</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="400" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <span>@SuperAserrí 2024 - Todos los derechos reservados</span>
+    
+            <div class="footerdiv">
+                <div class="footerdiv1">
+                    <img src="../Media/IMG/logo.png" style="border-radius: 5px; width: 200px; height: 150px;" alt="logo">
+                </div>
+                <div class="footerdiv2">
+                    <h3 class="headline footer">Servicio al Cliente</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Métodos de Pago</a></li>
+                        <li><a href="#">Entregas y Devoluciones</a></li>
+                        <li><a href="#">Políticas de Cookies</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Reclamaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footerdiv2">
+                    <h3 class="headline footer">Contáctenos</h3>
+                    <ul>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel: 2230-5200" class="ng-binding">2230-5222</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a class="ng-binding" href="mailto:superaserri@superaserri.com">superaserri@superaserri.com</a>
+                        </li>
+                        <li><a href="../HTML/contactos.html"><i class="fa fa-comment" aria-hidden="true"></i> Contáctenos</a></li>
+                        <li><a href="../HTML/preguntas.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Preguntas Frecuentes</a></li>
+                        <li><a href="../HTML/ubicacion.html"><i class="fas fa-store" aria-hidden="true"></i> Superemercados</a></li>
+                        <li><a href="../HTML/acercade.html"><i class="fa fa-building" aria-hidden="true"></i> ¿Quiénes Somos?</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </footer>
+        <script src="/js/script.js"></script>
+</body>
+</html>
